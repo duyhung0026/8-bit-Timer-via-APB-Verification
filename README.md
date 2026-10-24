@@ -26,7 +26,7 @@ A layered, self-checking SystemVerilog testbench that verifies an **APB-slave 8-
 ## Testbench architecture
 
 ```
-base_test (write()/read() API, scenarios)
+base_test (write()/read() API, run_scenarios)
  |
  +-- environment
       |-- stimulus --s2d_mb--> driver --(virtual if)--> DUT

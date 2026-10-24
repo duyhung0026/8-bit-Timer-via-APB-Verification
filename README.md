@@ -50,7 +50,7 @@ Design notes:
 
 ## Verification plan
 
-The full plan is in [`vplan/`](vplan/) (TODO: add file name). Test groups:
+The full plan is in Vplan_8_bit_Timer.xlsx. Test groups:
 
 | Group | Scope |
 |---|---|

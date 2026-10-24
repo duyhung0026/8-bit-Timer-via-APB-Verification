@@ -1,0 +1,19 @@
+QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+Start time: 14:11:14 on Oct 22,2026
+vlog -sv -f compile.f 
+-- Compiling module timer_register
+-- Compiling module timer_clock_divisor
+-- Compiling module timer_interrupt
+-- Compiling module timer_counter
+-- Compiling module timer_top
+-- Compiling interface dut_if
+-- Compiling package timer_pkg
+-- Compiling package test_pkg
+-- Importing package timer_pkg
+-- Compiling module testbench
+-- Importing package test_pkg
+
+Top level modules:
+	testbench
+End time: 14:11:22 on Oct 22,2026, Elapsed time: 0:00:08
+Errors: 0, Warnings: 0

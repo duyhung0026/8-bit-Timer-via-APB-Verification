@@ -1,0 +1,123 @@
+# vsim -sv_seed 1 -debugDB -l intr_both_enable_test_1.log -voptargs="+acc" -assertdebug -c testbench -do " log -r /*;run -all;" "+intr_both_enable_test" 
+# Start time: 16:53:18 on Oct 22,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  Questa Sim-64
+# //  Version 2021.2_1 linux_x86_64 May 15 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.dut_if(fast)
+# Loading work.timer_pkg(fast)
+# Loading work.test_pkg(fast)
+# Loading work.testbench(fast)
+# Loading work.dut_if(fast__2)
+# Loading work.timer_top(fast)
+# Loading work.timer_register(fast)
+# Loading work.timer_clock_divisor(fast)
+# Loading work.timer_counter(fast)
+# Loading work.timer_interrupt(fast)
+# ** Note: (vsim-8716) Reusing existing debug database vsim.dbg.
+#  log -r /*
+# run -all
+# 0: [Environment] build
+# 100000 [Stimulus]: Sent packet to driver
+# 100000: [Driver] Get packet from stimulus
+# 130000: [Monitor] Captured APB WRITE: address = 3, data = 3
+# 130000: [Scoreboard] Get packet from monitor: WRITE: addr = 00000011, data = 03
+# 150000 [Stimulus]: Sent packet to driver
+# 150000: [Driver] Get packet from stimulus
+# 190000: [Monitor] Captured APB READ: address = 3, data = 3
+# 190000: [Scoreboard] Get packet from monitor: READ: addr = 00000011, data = 03
+# 210000 [Stimulus]: Sent packet to driver
+# 210000: [Driver] Get packet from stimulus
+# 250000: [Monitor] Captured APB WRITE: address = 0, data = 1
+# 250000: [Scoreboard] Get packet from monitor: WRITE: addr = 00000000, data = 01
+# 1610000 [Stimulus]: Sent packet to driver
+# 1610000: [Driver] Get packet from stimulus
+# 1650000: [Monitor] Captured APB READ: address = 1, data = 1
+# 1650000: [Scoreboard] Get packet from monitor: READ: addr = 00000001, data = 01
+# [TSR] PASS: Overflow bit triggered
+# [PASS] Interrupt=1 TIE=03
+# 1730000 [Stimulus]: Sent packet to driver
+# 1730000: [Driver] Get packet from stimulus
+# 1770000: [Monitor] Captured APB WRITE: address = 0, data = 0
+# 1770000: [Scoreboard] Get packet from monitor: WRITE: addr = 00000000, data = 00
+# 1790000 [Stimulus]: Sent packet to driver
+# 1790000: [Driver] Get packet from stimulus
+# 1830000: [Monitor] Captured APB WRITE: address = 1, data = 3
+# 1830000: [Scoreboard] Get packet from monitor: WRITE: addr = 00000001, data = 03
+# 1850000 [Stimulus]: Sent packet to driver
+# 1850000: [Driver] Get packet from stimulus
+# 1890000: [Monitor] Captured APB READ: address = 1, data = 0
+# 1890000: [Scoreboard] Get packet from monitor: READ: addr = 00000001, data = 00
+# TSR cleared -> 0
+# 1970000 [Stimulus]: Sent packet to driver
+# 1970000: [Driver] Get packet from stimulus
+# 2010000: [Monitor] Captured APB WRITE: address = 0, data = 0
+# 2010000: [Scoreboard] Get packet from monitor: WRITE: addr = 00000000, data = 00
+# 2030000 [Stimulus]: Sent packet to driver
+# 2030000: [Driver] Get packet from stimulus
+# 2070000: [Monitor] Captured APB WRITE: address = 3, data = 0
+# 2070000: [Scoreboard] Get packet from monitor: WRITE: addr = 00000011, data = 00
+# 2090000 [Stimulus]: Sent packet to driver
+# 2090000: [Driver] Get packet from stimulus
+# 2130000: [Monitor] Captured APB WRITE: address = 3, data = 3
+# 2130000: [Scoreboard] Get packet from monitor: WRITE: addr = 00000011, data = 03
+# 2150000 [Stimulus]: Sent packet to driver
+# 2150000: [Driver] Get packet from stimulus
+# 2190000: [Monitor] Captured APB READ: address = 3, data = 3
+# 2190000: [Scoreboard] Get packet from monitor: READ: addr = 00000011, data = 03
+# 2210000 [Stimulus]: Sent packet to driver
+# 2210000: [Driver] Get packet from stimulus
+# 2250000: [Monitor] Captured APB WRITE: address = 2, data = fd
+# 2250000: [Scoreboard] Get packet from monitor: WRITE: addr = 00000010, data = fd
+# 2270000 [Stimulus]: Sent packet to driver
+# 2270000: [Driver] Get packet from stimulus
+# 2310000: [Monitor] Captured APB WRITE: address = 0, data = 4
+# 2310000: [Scoreboard] Get packet from monitor: WRITE: addr = 00000000, data = 04
+# 2330000 [Stimulus]: Sent packet to driver
+# 2330000: [Driver] Get packet from stimulus
+# 2370000: [Monitor] Captured APB WRITE: address = 0, data = 3
+# 2370000: [Scoreboard] Get packet from monitor: WRITE: addr = 00000000, data = 03
+# 3710000 [Stimulus]: Sent packet to driver
+# 3710000: [Driver] Get packet from stimulus
+# 3750000: [Monitor] Captured APB READ: address = 1, data = 2
+# 3750000: [Scoreboard] Get packet from monitor: READ: addr = 00000001, data = 02
+# [TSR] PASS: Underflow bit triggered
+# [PASS] Interrupt=1 TIE=03
+# 3830000 [Stimulus]: Sent packet to driver
+# 3830000: [Driver] Get packet from stimulus
+# 3870000: [Monitor] Captured APB WRITE: address = 0, data = 0
+# 3870000: [Scoreboard] Get packet from monitor: WRITE: addr = 00000000, data = 00
+# 3890000 [Stimulus]: Sent packet to driver
+# 3890000: [Driver] Get packet from stimulus
+# 3930000: [Monitor] Captured APB WRITE: address = 1, data = 3
+# 3930000: [Scoreboard] Get packet from monitor: WRITE: addr = 00000001, data = 03
+# 3950000 [Stimulus]: Sent packet to driver
+# 3950000: [Driver] Get packet from stimulus
+# 3990000: [Monitor] Captured APB READ: address = 1, data = 0
+# 3990000: [Scoreboard] Get packet from monitor: READ: addr = 00000001, data = 00
+# TSR cleared -> 0
+# 4070000 [Stimulus]: Sent packet to driver
+# 4070000: [Driver] Get packet from stimulus
+# 4110000: [Monitor] Captured APB WRITE: address = 0, data = 0
+# 4110000: [Scoreboard] Get packet from monitor: WRITE: addr = 00000000, data = 00
+# 4130000 [Stimulus]: Sent packet to driver
+# 4130000: [Driver] Get packet from stimulus
+# 4170000: [Monitor] Captured APB WRITE: address = 3, data = 0
+# 4170000: [Scoreboard] Get packet from monitor: WRITE: addr = 00000011, data = 00
+# 5190000: [base_test] End Simulation
+# ** Note: $finish    : ../testcase/base_test.sv(152)
+#    Time: 5190 ns  Iteration: 0  Instance: /testbench
+# End time: 16:53:19 on Oct 22,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

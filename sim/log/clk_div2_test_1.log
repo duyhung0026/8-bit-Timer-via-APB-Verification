@@ -1,0 +1,74 @@
+# vsim -sv_seed 1 -debugDB -l clk_div2_test_1.log -voptargs="+acc" -assertdebug -c testbench -do " log -r /*;run -all;" "+clk_div2_test" 
+# Start time: 17:11:51 on Sep 22,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-8611) Generating debug db.
+# //  Questa Sim-64
+# //  Version 2021.2_1 linux_x86_64 May 15 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.dut_if(fast)
+# Loading work.timer_pkg(fast)
+# Loading work.test_pkg(fast)
+# Loading work.testbench(fast)
+# Loading work.dut_if(fast__2)
+# Loading work.timer_top(fast)
+# Loading work.timer_register(fast)
+# Loading work.timer_clock_divisor(fast)
+# Loading work.timer_counter(fast)
+# Loading work.timer_interrupt(fast)
+# ** Note: (vsim-8900) Creating design debug database vsim.dbg.
+#  log -r /*
+# run -all
+# 0: [Environment] build
+# 190000 [Stimulus]: Sent packet to driver
+# 190000: [Driver] Get packet from stimulus
+# 230000: [Monitor] Captured APB WRITE: address = 2, data = 0
+# 230000: [Scoreboard] Get packet from monitor: WRITE: addr = 00000010, data = 00
+# 250000 [Stimulus]: Sent packet to driver
+# 250000: [Driver] Get packet from stimulus
+# 290000: [Monitor] Captured APB WRITE: address = 3, data = 3
+# 290000: [Scoreboard] Get packet from monitor: WRITE: addr = 00000011, data = 03
+# 310000 [Stimulus]: Sent packet to driver
+# 310000: [Driver] Get packet from stimulus
+# 350000: [Monitor] Captured APB WRITE: address = 0, data = 9
+# 350000: [Scoreboard] Get packet from monitor: WRITE: addr = 00000000, data = 09
+# 2890000 [Stimulus]: Sent packet to driver
+# 2890000: [Driver] Get packet from stimulus
+# 2930000: [Monitor] Captured APB READ: address = 1, data = 0
+# 2930000: [Scoreboard] Get packet from monitor: READ: addr = 00000001, data = 00
+# [PASS] Overflow bit did not raise soon
+# 3010000 [Stimulus]: Sent packet to driver
+# 3010000: [Driver] Get packet from stimulus
+# 3050000: [Monitor] Captured APB READ: address = 1, data = 1
+# 3050000: [Scoreboard] Get packet from monitor: READ: addr = 00000001, data = 01
+# [PASS] Overflow bit triggered
+# [PASS] Interrupt asserted
+# 3130000 [Stimulus]: Sent packet to driver
+# 3130000: [Driver] Get packet from stimulus
+# 3170000: [Monitor] Captured APB WRITE: address = 1, data = 3
+# 3170000: [Scoreboard] Get packet from monitor: WRITE: addr = 00000001, data = 03
+# 3190000 [Stimulus]: Sent packet to driver
+# 3190000: [Driver] Get packet from stimulus
+# 3230000: [Monitor] Captured APB READ: address = 1, data = 0
+# 3230000: [Scoreboard] Get packet from monitor: READ: addr = 00000001, data = 00
+# TSR cleared -> 0
+# 3250000 [Stimulus]: Sent packet to driver
+# 3250000: [Driver] Get packet from stimulus
+# 3290000: [Monitor] Captured APB READ: address = 0, data = 9
+# 3290000: [Scoreboard] Get packet from monitor: READ: addr = 00000000, data = 09
+# 4310000: [base_test] End Simulation
+# ** Note: $finish    : ../testcase/base_test.sv(106)
+#    Time: 4310 ns  Iteration: 0  Instance: /testbench
+# End time: 17:11:53 on Sep 22,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0

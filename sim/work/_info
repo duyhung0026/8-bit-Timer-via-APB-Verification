@@ -1,0 +1,351 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/duyhung/duyhung/project_dva/project1/sim
+T_opt
+!s11d test_pkg /home/duyhung/duyhung/project_dva/project1/sim/work 1 dut_if 1 /home/duyhung/duyhung/project_dva/project1/sim/work 
+!s11d timer_pkg /home/duyhung/duyhung/project_dva/project1/sim/work 1 dut_if 1 /home/duyhung/duyhung/project_dva/project1/sim/work 
+!s110 1792946659
+VfLC;;z]]^ZT9S@[S>dm0>1
+04 9 4 work testbench fast 0
+=1-000ae431a4f1-6ade31e3-28bb5-1addc
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work -debugdb +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2021.2_1;73
+Ydut_if
+Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z4 !s110 1792946638
+!i10b 1
+!s100 ]4?><04;G^@Uz:Q?`[]`]3
+Io7=0A_cIdH_LPm^RHEeMT0
+S1
+R1
+w1790224904
+8../tb/dut_interface.sv
+F../tb/dut_interface.sv
+!i122 86
+Z5 L0 1 0
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OL;L;2021.2_1;73
+r1
+!s85 0
+31
+Z8 !s108 1792946638.000000
+Z9 !s107 ../testcase/intr_polling_mode_test.sv|../testcase/intr_both_enable_test.sv|../testcase/intr_clear_test.sv|../testcase/intr_underflow_disable_test.sv|../testcase/intr_underflow_enable_test.sv|../testcase/intr_overflow_disable_test.sv|../testcase/intr_overflow_enable_test.sv|../testcase/counter_switch_while_running.sv|../testcase/counter_resume_test.sv|../testcase/timer_disable_when_counting.sv|../testcase/count_down_with_data_test.sv|../testcase/count_up_with_data_test.sv|../testcase/count_down_from_zero_test.sv|../testcase/count_up_from_zero_test.sv|../testcase/clk_div8_test.sv|../testcase/clk_div4_test.sv|../testcase/clk_div2_test.sv|../testcase/clk_no_div_test.sv|../testcase/reg_reserved_test.sv|../testcase/reset_on_fly_test.sv|../testcase/reg_write_read_test.sv|../testcase/reg_default_value_test.sv|../testcase/base_test.sv|../tb/environment.sv|../tb/coverage.sv|../tb/scoreboard.sv|../tb/monitor.sv|../tb/driver.sv|../tb/stimulus.sv|../tb/packet.sv|../tb/testbench.sv|../testcase/test_pkg.sv|../tb/timer_pkg.sv|../tb/dut_interface.sv|../rtl/timer_top.v|../rtl/timer_counter.vp|../rtl/timer_interrupt.vp|../rtl/timer_clock_divisor.vp|../rtl/timer_register.vp|
+Z10 !s90 -coveropt|3|+cover=bcestf|-sv|-f|compile.f|
+!i113 0
+Z11 !s102 -coveropt 3 +cover=bcestf
+Z12 o-coveropt 3 +cover=bcestf -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z13 !s92 -coveropt 3 +cover=bcestf -sv +incdir+../tb +incdir+../testcase -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+Xtest_pkg
+Z14 !s115 dut_if
+R3
+Z15 DXx4 work 9 timer_pkg 0 22 RH6POW_RTY9>7QYCeSDEb0
+R4
+!i10b 1
+!s100 emGoQ5GhMWVcemk6SiG=V3
+IQ;CWS1`Ho4ao12=?S=R6h2
+S1
+R1
+w1792946630
+8../testcase/test_pkg.sv
+F../testcase/test_pkg.sv
+F../testcase/base_test.sv
+F../testcase/reg_default_value_test.sv
+F../testcase/reg_write_read_test.sv
+F../testcase/reset_on_fly_test.sv
+F../testcase/reg_reserved_test.sv
+F../testcase/clk_no_div_test.sv
+F../testcase/clk_div2_test.sv
+F../testcase/clk_div4_test.sv
+F../testcase/clk_div8_test.sv
+F../testcase/count_up_from_zero_test.sv
+F../testcase/count_down_from_zero_test.sv
+F../testcase/count_up_with_data_test.sv
+F../testcase/count_down_with_data_test.sv
+F../testcase/timer_disable_when_counting.sv
+F../testcase/counter_resume_test.sv
+F../testcase/counter_switch_while_running.sv
+F../testcase/intr_overflow_enable_test.sv
+F../testcase/intr_overflow_disable_test.sv
+F../testcase/intr_underflow_enable_test.sv
+F../testcase/intr_underflow_disable_test.sv
+F../testcase/intr_clear_test.sv
+F../testcase/intr_both_enable_test.sv
+F../testcase/intr_polling_mode_test.sv
+!i122 86
+R5
+VQ;CWS1`Ho4ao12=?S=R6h2
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R13
+R2
+vtestbench
+R3
+R15
+DXx4 work 8 test_pkg 0 22 Q;CWS1`Ho4ao12=?S=R6h2
+R4
+!i10b 1
+!s100 Ek=OU?hUXEkm2JfRkB_^82
+IF;m2@>]m3MjOljMTS756>3
+S1
+R1
+w1792946500
+8../tb/testbench.sv
+F../tb/testbench.sv
+!i122 86
+L0 3 104
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R13
+R2
+vtimer_clock_divisor
+R3
+R4
+!i10b 1
+!s100 Y^XLM?5^2U>eJ^4KH]gM90
+I5OmMQ3oDJe6=VGCfzHGck0
+!i119 1
+S1
+R1
+Z16 w1789547190
+8../rtl/timer_clock_divisor.vp
+F../rtl/timer_clock_divisor.vp
+!i122 86
+L0 1 9
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R13
+R2
+vtimer_counter
+R3
+R4
+!i10b 1
+!s100 c36LRfVQbYWkMGcfC]P_03
+I<_5_Vz3iIH`lDl9_RKl<h0
+!i119 1
+S1
+R1
+R16
+8../rtl/timer_counter.vp
+F../rtl/timer_counter.vp
+!i122 86
+L0 1 14
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R13
+R2
+vtimer_interrupt
+R3
+R4
+!i10b 1
+!s100 =LMYEg@XW^KP_K6gzI]4o1
+IZ@=N?JA2ZzbO4bPO3JLD[0
+!i119 1
+S1
+R1
+R16
+8../rtl/timer_interrupt.vp
+F../rtl/timer_interrupt.vp
+!i122 86
+L0 1 10
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R13
+R2
+Xtimer_pkg
+R14
+R3
+R4
+!i10b 1
+!s100 bbE=SAz8HZh;`?1@jQ8nD1
+IRH6POW_RTY9>7QYCeSDEb0
+S1
+R1
+w1792916560
+8../tb/timer_pkg.sv
+F../tb/timer_pkg.sv
+F../tb/packet.sv
+F../tb/stimulus.sv
+F../tb/driver.sv
+F../tb/monitor.sv
+F../tb/scoreboard.sv
+F../tb/coverage.sv
+F../tb/environment.sv
+!i122 86
+R5
+VRH6POW_RTY9>7QYCeSDEb0
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R13
+R2
+vtimer_register
+R3
+R4
+!i10b 1
+!s100 URn_GGhc:Z<D4Q@BEmRmD2
+I?deB=Y38H=BmO]Mf0XPRF2
+!i119 1
+S1
+R1
+R16
+8../rtl/timer_register.vp
+F../rtl/timer_register.vp
+!i122 86
+L0 1 27
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R13
+R2
+vtimer_top
+R3
+R4
+!i10b 1
+!s100 ]cSOZYT[=O=J7j8o53BaO1
+IjjYlG]S83jO011QCo9zGJ3
+S1
+R1
+R16
+8../rtl/timer_top.v
+F../rtl/timer_top.v
+!i122 86
+L0 1 86
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R13
+R2

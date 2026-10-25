@@ -1,0 +1,53 @@
+# vsim -sv_seed 1 -debugDB -l count_up_frzero_test_1.log -voptargs="+acc" -assertdebug -c testbench -do " log -r /*;run -all;" "+count_up_frzero_test" 
+# Start time: 14:48:32 on Oct 10,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-8611) Generating debug db.
+# //  Questa Sim-64
+# //  Version 2021.2_1 linux_x86_64 May 15 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.dut_if(fast)
+# Loading work.timer_pkg(fast)
+# Loading work.test_pkg(fast)
+# Loading work.testbench(fast)
+# Loading work.dut_if(fast__2)
+# Loading work.timer_top(fast)
+# Loading work.timer_register(fast)
+# Loading work.timer_clock_divisor(fast)
+# Loading work.timer_counter(fast)
+# Loading work.timer_interrupt(fast)
+# ** Note: (vsim-8900) Creating design debug database vsim.dbg.
+#  log -r /*
+# run -all
+# 0: [Environment] build
+# 100000 [Stimulus]: Sent packet to driver
+# 100000: [Driver] Get packet from stimulus
+# 130000: [Monitor] Captured APB WRITE: address = 0, data = 1
+# 130000: [Scoreboard] Get packet from monitor: WRITE: addr = 00000000, data = 01
+# [PASS] Counterstarted RIGHT data 0
+# [PASS] Counting up RIGHT: 0 -> 1
+# [PASS] Counting up RIGHT: 1 -> 2
+# [PASS] Counting up RIGHT: 2 -> 3
+# [PASS] Counting up RIGHT: 3 -> 4
+# [PASS] Counting up RIGHT: 4 -> 5
+# 180000 [Stimulus]: Sent packet to driver
+# 180000: [Driver] Get packet from stimulus
+# 210000: [Monitor] Captured APB WRITE: address = 0, data = 0
+# 210000: [Scoreboard] Get packet from monitor: WRITE: addr = 00000000, data = 00
+# [Count up from 0] PASSED
+# 1230000: [base_test] End Simulation
+# ** Note: $finish    : ../testcase/base_test.sv(149)
+#    Time: 1230 ns  Iteration: 0  Instance: /testbench
+# End time: 14:48:33 on Oct 10,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

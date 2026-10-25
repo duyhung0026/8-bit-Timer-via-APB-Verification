@@ -2,8 +2,8 @@
 
 A layered, self-checking SystemVerilog testbench that verifies an **APB-slave 8-bit timer** (up/down counter, clock divisor, overflow/underflow detection, interrupt). Built with directed tests, a verification plan and functional coverage.
 
-> Course project: ICTC DV Advanced - Project 1.
-> The RTL, the specification, makefiles BELONG to ICTC Training Center and are **not** included in this repository.
+> Course project: **** DV Advanced - Project 1.
+> The RTL and the specification BELONG to **** Training Center and are **not** included in this repository.
 
 ## DUT overview
 
@@ -72,38 +72,6 @@ Coverage result: `TODO: add % and a screenshot (e.g. docs/coverage.png)`
 
 Requirements: QuestaSim (tested with 2021.2).
 
-```bash
-# TODO: adjust to your Makefile
-make compile
-make run TEST=<test_name>      # e.g. intr_clear_test
-make cov_gui                   # open coverage report
-```
-
-Available tests (plusarg = test class name): `TODO list`, for example
-`reg_default_value_test`,
-`reg_write_read_test`,
-`reset_on_fly_test`, 
-`clk_no_div_test`, 
-`clk_div2_test`, 
-`clk_div4_test`, 
-`clk_div8_test`, 
-`counter_disable_test`, 
-`counter_resume_test`, 
-`counter_switch_dir_while_running_test`,
-`intr_overflow_enable_test`,
-`intr_overflow_disable_test`,
-`intr_underflow_enable_test`,
-`intr_underflow_disable_test`,
-`intr_clear_test`,
-`intr_both_enable_test`,
-`intr_polling_mode_test`.
-
-## Results
-
-| Test | Result | Notes |
-|---|---|---|
-| TODO | PASS / FAIL | |
-
 ## Observations
 
 - **Direction change while running (Vplan 3.9):** writing `count_down=1` while `timer_en=1` (outside the spec note) makes the DUT reverse the counting direction immediately, with no glitch around the turning point. The test records this behaviour instead of asserting a fixed expectation.
@@ -121,5 +89,5 @@ sim/        Makefile, compile.f   (TODO adjust)
 
 ## Author
 
-`<Your name>` - final-year Electronics and Telecommunications Engineering student, HCMUTE. Looking for Design Verification roles.
+`<Nguyen Duy Hung>` - final-year Electronics and Telecommunications Engineering student, HCMUTE. Looking for Design Verification roles.
 `<LinkedIn / email>`

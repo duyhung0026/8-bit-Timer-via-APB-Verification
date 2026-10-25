@@ -90,5 +90,4 @@ sim/        Makefile, compile.f   (TODO adjust)
 ## Author
 
 `Nguyen Duy Hung` - Fresh Graduate Electronics and Telecommunications Engineering, HCMUTE.
-`https://www.linkedin.com/in/h%C6%B0ng-nguy%E1%BB%85n-720184292/?isSelfProfile=true`
 `duyhung0939@gmail.com`

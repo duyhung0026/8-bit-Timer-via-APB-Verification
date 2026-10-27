@@ -2,7 +2,6 @@
 
 A layered, self-checking SystemVerilog testbench that verifies an **APB-slave 8-bit timer** (up/down counter, clock divisor, overflow/underflow detection, interrupt). Built with directed tests, a verification plan and functional coverage.
 
-> Course project: **** DV Advanced - Project 1.
 > The RTL and the specification BELONG to **** Training Center and are **not** included in this repository.
 
 ## DUT overview

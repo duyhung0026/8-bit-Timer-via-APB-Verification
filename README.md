@@ -87,6 +87,4 @@ sim/        Makefile, compile.f   (TODO adjust)
 ```
 
 ## Author
-
-`Nguyen Duy Hung` - Fresh Graduate Electronics and Telecommunications Engineering, HCMUTE.
-`duyhung0939@gmail.com`
+`Nguyen Duy Hung` - `duyhung0939@gmail.com`
